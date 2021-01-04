@@ -15,6 +15,15 @@
      "matches": ["https://*.nytimes.com/crosswords*"],
      "js": ["contentScript.js"]
    }
- ],
+  ],
+  "commands": {
+    "toggle-penicl": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+P",
+        "mac": "Command+Shift+P"
+      },
+      "description": "Toggle penicl/pen"
+    }
+  },
   "manifest_version": 2
 }
