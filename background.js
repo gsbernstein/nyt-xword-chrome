@@ -5,9 +5,9 @@ chrome.runtime.onInstalled.addListener(function() {
   chrome.declarativeContent.onPageChanged.removeRules(undefined, function() {
     chrome.declarativeContent.onPageChanged.addRules([{
       conditions: [
-	    new chrome.declarativeContent.PageStateMatcher({
-	      pageUrl: {urlContains: 'nytimes.com/crosswords'},
-	    })
+	      new chrome.declarativeContent.PageStateMatcher({
+	        pageUrl: {urlContains: 'nytimes.com/crosswords'},
+	      })
       ],
       actions: [
       	new chrome.declarativeContent.ShowPageAction()
