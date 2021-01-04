@@ -1,7 +1,7 @@
 {
-  "name": "Getting Started Example",
+  "name": "xword+",
   "version": "1.0",
-  "description": "Build an Extension!",
+  "description": "Improving the NYT Crossword",
   "permissions": ["activeTab", "declarativeContent", "storage"],
   "background": {
     "scripts": ["background.js"],
