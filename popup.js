@@ -12,10 +12,5 @@ changeColor.onclick = function(element) {
     	tabs[0].id,
         {code: 'document.body.style.backgroundColor = "' + color + '";'}
     );
-    var button = document.getElementById("mybutton");
-    chrome.tabs.executeScript(
-    	tabs[0].id,
-        {code: 'document.body.style.backgroundColor = "' + color + '";'}
-    );
   });
 };
